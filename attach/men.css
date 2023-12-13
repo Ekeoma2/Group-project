@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.con{
+
+    width: 100%;
+    height: 100vh;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.globe i{
+    color: #ffffff;
+    margin-top: 5px;
+}
+.globe{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+.heart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+.heart i{
+    color: #ffffff;
+    margin-top: 5px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+.profile i{
+    margin-top: 5px;
+    color: whitesmoke;
+}
+.profile i:hover{
+    font-size: 30px;
+}
+.cart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+.cart i{
+    margin-top: 7px;
+    color: whitesmoke;
+}
+.cart i:hover{
+    font-size: 30px;
+
+}
+.search{
+    outline: none;
+    height: 20px;
+}
+.seek i{
+    color: whitesmoke;
+    display: none;
+    margin-top: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+      height: 50px;  
+      width: 100%;
+}
+.nav h1{
+    color: wheat;
+    margin-left: 10px;
+}
+.second-nav{
+    background-color: #a9a9a9;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.second-nav h1{
+    font-size: 40px;
+}
+.product{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pics{
+    width: 100%;
+    height: 50%;
+    background-color: #a9a9;
+    height: 200px;
+    border: 1px solid black;
+}
+.pics img{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    text-align: center;
+    font-family: 'geneva';
+    height: 10%;
+}
+.price{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Geneva;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+.buy{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+.add{
+    height: 30px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.add:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.buy-now{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #0fb40f;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+.buy-now:hover{
+    cursor: pointer;
+    background-color: #008000;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.products{
+    margin-top: 10px;
+    padding: 10px;
+}
+.first-row{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    height: 400px;
+}
+.second-row{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    height: 400px;
+}
